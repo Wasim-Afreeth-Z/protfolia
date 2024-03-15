@@ -1,0 +1,161 @@
+.Testimonials {
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.client-section {
+    padding-inline: 120px;
+    margin-bottom: 60px;
+}
+
+.client-topic {
+    font-size: 62px;
+    color: var(--black-color);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.client-topic-2 {
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.client-flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+
+.client-box {
+    max-width: 410px;
+    background-color: var(--skill-contact-box);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.star {
+    margin-bottom: 20px;
+}
+
+.client-para {
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    color: var(--black-color);
+}
+
+.client-profile {
+    display: flex;
+    align-items: center;
+}
+
+.client-img {
+    width: 50px;
+    height: 50px;
+}
+
+.client-details {
+    margin-left: 10px;
+    line-height: 24px;
+    color: var(--black-color);
+}
+
+.client-name {
+    font-size: 20px;
+}
+
+.client-job {
+    font-size: 14px;
+}
+
+
+
+
+@media (max-width: 1150px) {
+
+    .client-section {
+        padding-inline: 60px;
+    }
+}
+
+@media (max-width: 950px) {
+    .client-flex {
+        column-gap: 50px;
+    }
+
+    .client-box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .client-section {
+        margin-bottom: 30px;
+    }
+
+    .client-topic {
+        font-size: 52px;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .client-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .client-margin{
+        margin-bottom: 0px;
+    } */
+}
+
+@media (max-width: 600px) {
+
+    .client-topic {
+        font-size: 42px;
+    }
+}
+
+
+@media (max-width: 524px) {
+
+    .client-section {
+        padding-inline: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    .client-name {
+        font-size: 17px;
+    }
+
+    .client-job {
+        font-size: 12px;
+    }
+
+    .client-details {
+        line-height: 20px;
+    }
+
+    .client-box {
+        padding: 20px;
+    }
+
+    .client-para {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .client-name {
+        font-size: 15px;
+    }
+
+    .client-job {
+        font-size: 12px;
+    }
+
+}
