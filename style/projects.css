@@ -1,3 +1,9 @@
+.project {
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .container {
     padding-inline: 120px;
 }
@@ -30,6 +36,7 @@
 }
 
 .span-topic-2 {
+    margin-left: 10px;
     font-size: 22px;
 }
 
@@ -117,6 +124,20 @@
     transform-origin: top;
 }
 
+.github-link{
+    margin-top: 5px;
+}
+
+.website-link{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+
+.user{
+    font-weight: 700;
+}
+
 /* more cool project */
 .more-project-section {
     margin-bottom: 80px;
@@ -149,7 +170,8 @@
 
 .more-img {
     max-width: 100%;
-    /* max-height: 280px; */
+    
+     /* max-height: 280px;  */
     /* min-width: 1px; */
 }
 
@@ -187,7 +209,8 @@
 }
 
 .tool::before {
-    content: 'Web~Development';
+    content: 'Web Development';
+    text-wrap: nowrap;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

@@ -63,6 +63,7 @@
 .about-img {
     padding-inline: 120px;
     display: flex;
+    justify-content: center;
     margin-bottom: 100px;
     column-gap: 20px;
     overflow: hidden;
@@ -169,7 +170,7 @@ marquee img {
 /*Education & Experience  */
 .edu-exp-section {
     padding-inline: 120px;
-    display: flex;
+    /* display: flex; */
     margin-bottom: 70px;
     gap: 70px;
 
