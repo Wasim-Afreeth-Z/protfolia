@@ -74,7 +74,7 @@ form {
 
 .name-box,
 .email-box,
-.budget-box {
+.subject-box {
     width: 100%;
     padding-block: 12px;
     padding-left: 15px;
@@ -103,9 +103,14 @@ form {
     padding: 10px;
 }
 
+.email-icon-box:hover,
+.phone-icon-box:hover{
+    text-decoration: underline;
+}
+
 .name-box:hover,
 .email-box:hover,
-.budget-box:hover,
+.subject-box:hover,
 .message-box:hover,
 .email-icon-box:hover,
 .phone-icon-box:hover {
