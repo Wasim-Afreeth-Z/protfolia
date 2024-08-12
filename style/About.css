@@ -208,6 +208,10 @@ marquee img {
     margin-bottom: 50px;
 }
 
+.edu{
+    margin-bottom: 5px;
+}
+
 /* companies-logo */
 .companies-logo-section {
     padding-inline: 120px;
@@ -549,6 +553,19 @@ marquee img {
 
 }
 
+@media (max-width: 500px) {
+    .education {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .edu,.year {
+        margin-bottom: 20px;
+    }
+
+}
+
 @media (max-width: 480px) {
     .detail {
         font-size: 40px;
@@ -588,16 +605,6 @@ marquee img {
 }
 
 @media (max-width: 400px) {
-    .education {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
-    }
-
-    .edu {
-        margin-bottom: 20px;
-    }
-
     .compaines-logo img {
         width: 100px;
     }
