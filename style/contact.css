@@ -49,6 +49,13 @@
     -webkit-text-fill-color: transparent;
 }
 
+.phone-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
 /* form */
 form {
     flex-basis: 50%;
