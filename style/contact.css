@@ -49,7 +49,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.phone-link{
+.phone-link,.email-link{
     display: flex;
     align-items: center;
     text-decoration: none;
