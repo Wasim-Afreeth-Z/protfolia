@@ -517,7 +517,7 @@ opacity: 1;
 
 
 
-@media (min-width: 2500px) {
+/* @media (min-width: 2500px) {
     .project-intro {
         max-width: 1000px;
     }
@@ -546,7 +546,7 @@ opacity: 1;
         left: 50px;
         bottom: 120px;
     }
-}
+} */
 
 @media (max-width: 1275px) {
 
